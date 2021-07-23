@@ -1,0 +1,39 @@
+{"intents": [
+  {"tag": "greetings",
+  "patterns": ["hello", "hey","hi", "Sasa","what's up?"],
+    "responses": ["Hello", "Hey", "What can I do for you?"]
+  },
+  {"tag": "goodbye",
+    "patterns": ["bye", "see you","thanks", "good day", "kwaheri"],
+    "responses": ["Goodbye"]
+  },
+  {"tag": "question1",
+    "patterns": ["What is SimbaPay International Mobile Money transfer?"],
+    "responses": ["This is a payment solution offered by both Stanbic Bank and SimbaPay to offer you international payment service on your mobile phone via M-Pesa’s PayBill option."]
+  },
+  {"tag": "question2",
+    "patterns": ["How do I register for the service?"],
+    "responses": ["All you need to do is get a Safaricom sim card and register with M-Pesa."]
+  },
+  {"tag": "question3",
+    "patterns": ["How do I make an international payment?"],
+    "responses": ["On your M-Pesa menu select the Paybill option\nSelect Paybill\nEnter the business account number 4012867\nOn the Account Number field, enter the recipients number starting with the countries prefix e.g. for China +86\nEnter your M-Pesa pin number\nOnce the transaction details are confirmed you will receive a notification from Stanbic Bank and SimbaPay (with\ndetails of the amount sent in the country currency equivalent, the exchange rate applied, and the commission\ncharged)."]
+  },
+  {"tag": "question4",
+    "patterns": ["What currency does the remitter send the funds in?"],
+    "responses": ["The sending currency is Kenya shilling as the funds are originating from M-Pesa"]
+  },
+  { "tag": "question5",
+    "patterns": ["In what currency does the beneficiary receive the funds?"],
+    "responses": ["The beneficiary receives the funds in their local currency based on the days rate."]
+  },
+  {"tag": "question6",
+    "patterns": ["What are the charges for this service?"],
+    "responses": ["Charges are a percentage of the amount being remitted alongside M-Pesa charges. Refer to the pricing guide provided. However, transactions to China (WeChat) are free of charge."]
+  },
+  {"tag": "question7",
+    "patterns": ["Where is the bank located?"],
+    "responses": ["Nairobi"]
+  }
+
+]}
