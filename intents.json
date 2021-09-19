@@ -4,7 +4,7 @@
     "responses": ["Hello", "Hey", "What can I do for you?"]
   },
   {"tag": "goodbye",
-    "patterns": ["bye", "see you","thanks", "good day", "kwaheri"],
+    "patterns": ["bye", "see you","thanks", "good day"],
     "responses": ["Goodbye"]
   },
   {"tag": "question1",
@@ -32,8 +32,83 @@
     "responses": ["Charges are a percentage of the amount being remitted alongside M-Pesa charges. Refer to the pricing guide provided. However, transactions to China (WeChat) are free of charge."]
   },
   {"tag": "question7",
-    "patterns": ["Where is the bank located?"],
-    "responses": ["Nairobi"]
-  }
+    "patterns": ["What are the different ways to bank?", "Self service banking options", "digital banking solutions", "self service banking solutions"],
+    "responses": ["1. Agency Banking \n 2. SimbaPay mobile international banking \n Internet Banking \n Mobile banking app \n Mobile banking USSD" ]
+  },
+  {
+    "tag": "bank accounts",
+    "patterns": [
+      "Types of transactional bank accounts",
+      "Personal transactional accounts",
+      "Bank accounts"
+    ],
+    "responses": [
+      "1. Executive Banking \n 2. Private Banking current account \n 3. Private banking doctor's proposition \n 4. Private banking pay as you go \n 5. Smart banking \n 6. Smart direct account \n 7. Diaspora banking \n 8. Pay as you go \n 9. Private banking bundled account"
+    ]
+  },
+  {
+    "tag": "Savings accounts",
+    "patterns": [
+      "Savings accounts",
+      "Personal savings accounts",
+      "Savings and investments",
+      "Savings and investments accounts"
+    ],
+    "responses": [
+     "1. Call deposit accounts\n 2. PureSave accounts \n 3. Fixed deposit"
+    ]
+  },
+  {
+      "tag": "credit cards",
+      "patterns": [
+        "credit cards",
+        "types of credit cards",
+        "credit card products",
+        "personal credit cards"
+      ],
+      "responses": [
+        "1. Gold credit card \n 2. Silver credit card"
+      ]
+    },
+  {
+      "tag": "bank account types",
+      "patterns": [
+        "types of bank accounts",
+        "different bank accounts"
+      ],
+      "responses": [
+        "1. Transactional bank account \n 2. Savings account"
+      ]
+    },
+  {
+      "tag": "business banking solutions",
+      "patterns": [
+        "business banking", "business bank"
+      ],
+      "responses": [
+        "1. Business current accounts \n 2. Business overdraft \n 3. SME Bizna loan \n 4. Corporate and Business Insurance \n 5. Bill Avalisation \n 6. Enterprise Direct"
+      ]
+    },
+  {
+      "tag": "bank opening requirements",
+      "patterns": [
+        "What do i need to open a bank account", "bank account opening requirements", "open a bank account"
+      ],
+      "responses": [
+        "To open a bank account, you should visit your nearest Stanbic bank branch and carry the following:\n 1. An identity card or passport \n 2. Two passport sized photos \n 3. Evidence of income that may include a Pay slip or a current for one month \n 4. Evidence of physical address in form of utility bills and lease agreements \n 5. A minimum opening balance, an income range of between Ksh 30,000 and Ksh 149,999 and an introductory letter from the employer or an existing CfC Stanbic bank customer."
+      ]
+    },
+  {
+      "tag": "bank account types",
+      "patterns": [
+        "types of bank accounts",
+        "different bank accounts"
+      ],
+      "responses": [
+        "1. Transactional bank account \n 2. Savings account"
+      ]
+    }
 
-]}
+
+
+    ]}
